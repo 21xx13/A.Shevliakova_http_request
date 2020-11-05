@@ -28,7 +28,7 @@ public class Main {
             fw.close();
         } catch (Exception ignored) {
         }
-
+        //через класс URL
         URL url = new URL("https://google.com");
         InputStream is = url.openStream();
         Files.createFile(Paths.get("src/google.html"));
